@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/food-ordering-website/static/css/main.fd43c778.css",
+    "main.js": "/food-ordering-website/static/js/main.e47189b1.js",
+    "static/media/c3.png": "/food-ordering-website/static/media/c3.55f83414f33f66456b35.png",
+    "static/media/fi1.png": "/food-ordering-website/static/media/fi1.3f43e51b6058550d1f44.png",
+    "static/media/logo.png": "/food-ordering-website/static/media/logo.0f99324454e3c3ccba98.png",
+    "static/media/f1.png": "/food-ordering-website/static/media/f1.c52686695ee9a5c4cd0d.png",
+    "static/media/i1.png": "/food-ordering-website/static/media/i1.3d9b129d2c5432c6f1fb.png",
+    "static/media/heroBg.png": "/food-ordering-website/static/media/heroBg.c43c4862422e70d88698.png",
+    "static/media/delivery.png": "/food-ordering-website/static/media/delivery.bf9130a0962fbe091abc.png",
+    "static/media/avatar.png": "/food-ordering-website/static/media/avatar.68cdc4513e601d28a382.png",
+    "static/media/emptyCart.svg": "/food-ordering-website/static/media/emptyCart.71ad17e692d71caa77c6c9351f84756b.svg",
+    "static/media/NotFound.svg": "/food-ordering-website/static/media/NotFound.4e90bb93460bfd8d9e2c86b42ef91a4a.svg",
+    "index.html": "/food-ordering-website/index.html",
+    "main.fd43c778.css.map": "/food-ordering-website/static/css/main.fd43c778.css.map",
+    "main.e47189b1.js.map": "/food-ordering-website/static/js/main.e47189b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd43c778.css",
+    "static/js/main.e47189b1.js"
+  ]
+}
