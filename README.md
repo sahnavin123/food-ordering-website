@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Food Ordering Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple food ordering website that allows customers to browse a menu and place orders for their favorite dishes. The website features a user-friendly interface, integrated filtering options for the menu, Firebase authentication for user login, and Firebase storage for storing essential data.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Menu Filtering:** Quickly locate your preferred food items by using the integrated filtering options.
+- **Diverse Food Selection:** Choose from over 7 dishes, each featuring more than 5 varieties of food items.
+- **Firebase Authentication:** Securely log in to the website using Firebase authentication.
+- **Responsive Design:** Enjoy a seamless user experience on any device with the 100% responsive design.
+- **Tailwind CSS Styling:** The website is styled using Tailwind CSS.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check out the live demo of the Food Ordering Website [here](https://restaurantapp-82fb9.web.app/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To run the project locally, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Clone the repository:
 
-### `npm run build`
+```
+ git clone https://github.com/sahnavin123/food-ordering-website.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### install the dependency
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### set up environment variables
 
-### `npm run eject`
+REACT_APP_FIREBASE_API_KEY =FIREBASE_API_KEY
+REACT_APP_FIREBASE_AUTH_DOMAIN =FIREBASE_AUTH_DOMAIN
+REACT_APP_FIREBASE_DB_URL =FIREBASE_DB_URL
+REACT_APP_FIREBASE_PROJECT_ID =FIREBASE_PROJECT_ID
+REACT_APP_FIREBASE_STORAGE_BUCCKET =FIREBASE_STORAGE_BUCCKET
+REACT_APP_FIREBASE_MESSAGING_ID =FIREBASE_MESSAGING_ID
+REACT_APP_FIREBASE_APP_ID =FIREBASE_APP_ID
+MEASUREMENT_ID=MEASUREMENT_ID
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Run the Application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application will be accessible at http://localhost:3000.
