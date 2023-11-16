@@ -10,8 +10,6 @@ import { actionType } from "./context/reducer";
 function App() {
   const [{ foodItems }, dispatch] = useStateValue();
 
-  console.log("ljljdfal", process.env.REACT_APP_FIREBASE_PROJECT_ID);
-
   const fetchData = async () => {
     await getAllFoodItems().then((data) => {
       dispatch({
